@@ -73,9 +73,10 @@ public class rpsgame {
                     System.out.println("Tie");
                 }
             }
-            Scanner play = new Scanner(System.in);
-            System.out.println("Would you like to play again?");
+        
             do{
+                Scanner play = new Scanner(System.in);
+                System.out.println("Would you like to play again?");
                 playAgain = false;
                 yesorno = play.nextLine();
                 if (yesorno.equalsIgnoreCase("Y")) {
